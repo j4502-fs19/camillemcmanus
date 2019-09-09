@@ -2,23 +2,38 @@
 
 p {
   color: #5A5453;
-  font-family: Georgia, "Times New Roman", serif;;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
 }
 
 h1 {
   color: #E8A8A2;
-  font-family: Helvetica, Arial , sans-serif;
+  font-size: 3em;
+  font-family: 'Oswald', Arial, sans-serif;
 }
 
-h4 {
+h2 {
   color: #4D4847;
-  font-family: Georgia, "Times New Roman", serif;
-  text-align: center;
+  font-family: 'Oswald', Arial, sans-serif;
+  text-align: left;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 1em;
 }
 
 body {
-  background-color: #FFFFFF;
-  font-family: Georgia, "Times New Roman", serif;
+  background-color: #CEE1F0;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+ul {
+  list-style-type: none;
+  color: #5A5453;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
 }
 
 #nav {
@@ -33,14 +48,18 @@ body {
   width: 100px;
 }
 
+a:link {
+text-decoration: none;
+}
+
 #nav a:link, #nav a:visited {
   display: block;
   color: #4F4446;
   background-color: #FFDAD9;
-  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 0.8em;
   padding: 4px;
 }
@@ -50,15 +69,18 @@ body {
 }
 
 .caption {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Crimson Pro', Georgia, serif;
   color: black;
   font-style: italic;
   text-align: left;
   font-size: 0.8em;
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 4px
 }
 
 #footer {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Crimson Pro', Georgia, serif;
   color: black;
   font-size: 0.8em;
   border-top: 1px solid black;
@@ -70,5 +92,10 @@ img {
 
 .title {
   text-align: left;
-  font-family: 'Bitter', serif;
+  font-family: 'Oswald', Arial, sans-serif;
+  margin: 0px;
+}
+
+.photo {
+  margin-bottom: 0px;
 }
