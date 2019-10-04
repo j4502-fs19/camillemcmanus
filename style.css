@@ -24,8 +24,6 @@ h2 {
 
 body {
   background-color: #FEFCEC;
-  margin-left: 300px;
-  margin-right: 300px;
 }
 
 ul {
@@ -36,10 +34,17 @@ ul {
   font-size: 1em;
 }
 
+#container{
+  width:80%;
+  margin: 0 auto;
+}
+
 #nav {
   padding: 0;
   list-style-type: none;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #nav li {
@@ -98,4 +103,34 @@ img {
 
 .photo {
   margin-bottom: 0px;
+}
+
+
+@media screen and (min-width:599px){
+
+  body{
+    backgorund-color:
+  }
+
+  p{
+    font-size:
+  }
+
+  #nav{
+    flex-flow: row wrap;
+    align-items: space-around;
+  }
+}
+
+@media screen and (min-width:799px){
+
+  h1{
+    font-size:
+  }
+
+  #nav {
+    flex-flow: row wrap;
+    align-items: flex-end;
+  }
+
 }
