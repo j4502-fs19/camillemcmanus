@@ -108,29 +108,15 @@ img {
 
 @media screen and (min-width:599px){
 
-  body{
-    backgorund-color:
-  }
-
-  p{
-    font-size:
-  }
-
   #nav{
     flex-flow: row wrap;
-    align-items: space-around;
   }
 }
 
 @media screen and (min-width:799px){
 
-  h1{
-    font-size:
-  }
-
   #nav {
     flex-flow: row wrap;
-    align-items: flex-end;
   }
 
 }
