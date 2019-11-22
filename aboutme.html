@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+  <html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+      <title>Resume</title>
+
+      <meta http-equiv="content-type"
+        content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Crimson+Pro:300,400,600,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,600,700,800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script src="menu.js" type="text/javascript"></script>
+
+    </head>
+
+
+    <header>
+
+    <h1 class="title">CAMILLE <mark class="red">MCMANUS</mark></h1>
+    <a class="menu-trigger" href="#">&#9776;</a>
+    <nav>
+      <ul id="nav">
+        <li><a href="index.html">home</a></li>
+        <li><a href="secondpage.html">my work</a></li>
+        <li><a href="aboutme.html">resume</a></li>
+      </ul>
+    </nav>
+
+    </header>
+
+    <div id="container">
+
+    <body>
+
+      <p>download a copy <a href="https://drive.google.com/file/d/1NAIWCiKAYg7aliACJ7ow3696nHvpdGMH/view?usp=sharing" target="_blank">here</a>.</p>
+
+      <h3>experience</h3>
+
+      <h4><a href="https://www.columbiamissourian.com/users/profile/camille%20mcmanus/" target="_blank">Columbia Missourian</a></h4>
+      <p class="resume">copy editor, Aug. 2019 - Present</p>
+      <p class="resume">health and public safety reporter, Jan. 2019 - May 2019</p>
+
+      <h4><a href="https://twitter.com/onamizzou?lang=en" target="_blank">MU Online News Association</a></h4>
+      <p class="resume">vice president, May 2019 - Present</p>
+      <p class="resume">social media director, May 2018 - May 2019</p>
+
+      <h4><a href="https://www.instagram.com/mizzoustarbucks/?hl=en" target="_blank">MU Starbucks</a></h4>
+      <p class="resume">social media manager, January 2019 - Present</p>
+      <p class="resume">shift supervisor, August 2018 - Present</p>
+
+      <h4><a href="http://www.fundacionakua.com/" target="_blank">Fundación Akua</a></h4>
+      <p class="resume">communications intern, May 2019 - July 2019</p>
+
+      <h3>education</h3>
+
+      <h4>University of Missouri - Columbia</h4>
+      <p class="resume">Bachelor of Journalism: Data Journalism, Dec. 2020</p>
+      <p class="resume">Spanish minor</p>
+      <!--<ul id='resume'>
+      <li>Read and edited stories, photo captions and opinion pieces from different beats — including sports, state government and public safety — for accuracy, clarity and consistency according to AP style</li>
+      <li>Wrote headlines, completed final edits and planned the weather section for print stories within InCopy</li>
+      <li>Wrote and managed about 5 social media posts on Facebook and Twitter each week to help drive traffic to our site</li>
+      <li>Composed 16 weekly newsletters updating readers on top stories of the week,  with a circulation of about 2,000</li>
+
+      <p><class="photo"><a href="CamilleMcManus-resume.pdf"><img src="images/CamilleMcManus-resume.jpg" alt="Camille McManus' resume." width="650px" class="center"/></a></p>-->
+      <p id="footer">Handmade by Camille McManus 2019.&copy;</p>
+
+      <script>
+
+      $(document).ready(function() {
+        $('.menu-trigger').click(function(){
+          $('nav ul').slideToggle(500);
+        });
+
+        $(window).resize(function() {
+          if ( $(window).width() > 700 ) {
+            $('nav ul').removeAttr('style');
+          }
+        });
+
+      });
+
+      </script>
+
+    </body>
+
+    </div>
+    </html>
