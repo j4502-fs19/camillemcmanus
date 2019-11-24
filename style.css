@@ -160,7 +160,7 @@ a:hover, a:active {
   padding: 4px
 }*/
 
- footer{
+footer{
    padding-top: 50px;
  }
 
@@ -265,14 +265,6 @@ mark.red {
 
   footer {
     padding-top: 100px;
-  }
-
-  footer p {
-    font-family: 'Lato', Arial, sans-serif;
-    color: black;
-    font-size: 0.8em;
-    border-top: 1px solid black;
-    display: block;
   }
 
   .menu-trigger{
