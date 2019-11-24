@@ -267,6 +267,14 @@ mark.red {
     padding-top: 100px;
   }
 
+  footer p {
+    font-family: 'Lato', Arial, sans-serif;
+    color: black;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+    display: block;
+  }
+
   .menu-trigger{
     display: none;
   }
