@@ -164,7 +164,7 @@ footer{
    padding-top: 50px;
  }
 
-footer p {
+.foot {
   font-family: 'Lato', Arial, sans-serif;
   color: black;
   font-size: 0.8em;
